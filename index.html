@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PHPerKaigi Next UP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation-flex.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
+    <link data-n-head="true" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fugaz+One">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div class="container" id="app">
+    <div class="expanded row align-top">
+        <div class="columns" v-bind:class="{ 'medium-12': isSingle, 'medium-6': !isSingle }" v-for="result in processedProposals">
+            <h3 class="c-title">{{ result.timetable.track }}</h3>
+            <h3 class="c-title"><i class="fi-clock"></i>{{ result.timetable.starts_at | moment}} - {{ result.timetable.end_at | moment}}</h3>
+        </div>
+    </div>
+
+    <div class="expanded row align-top">
+        <div class="columns" v-bind:class="{ 'medium-12': isSingle, 'medium-6': !isSingle }" v-for="result in processedProposals">
+            <span class="label secondary"><i class="fi-clock"></i> {{ result.timetable.length_min }} min</span>
+            <h2>{{ result.title }}</h2>
+        </div>
+    </div>
+
+    <div class="expanded row align-top">
+        <div class="columns align-middle" v-bind:class="{ 'medium-12': isSingle, 'medium-6': !isSingle }" v-for="result in processedProposals">
+            <div class="columns small-12">
+                <div class="row">
+                    <div class="columns small-4">
+                        <p v-if="result.speaker.avatar_url"><img :src="result.speaker.avatar_url" width="100%"></p>
+                        <p v-else><img src="./image/no_icon.png" width="100%"></p>
+                        <p><img :src="result.qr" width="100%"></p>
+
+                        <p><i class="fi-torso"></i>{{ result.speaker.name }}</p>
+
+                        <p v-if="result.speaker.twitter">
+                            <i class="fi-social-twitter"></i>{{ result.speaker.twitter }}
+                        </p>
+
+                    </div>
+
+                    <div class="columns small-8">
+
+                       <p>{{ result.abstract }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-router"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/moment/moment.js"></script>
+<script src="https://unpkg.com/moment/locale/ja.js"></script>
+<script src="https://unpkg.com/lodash/lodash.min.js"></script>
+<script src="https://unpkg.com/vue-qriously/dist/vue-qriously.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
