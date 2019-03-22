@@ -10,54 +10,99 @@
 </head>
 <body>
 <div class="container" id="app">
-    <div class="expanded row align-top">
-        <div class="columns" v-bind:class="{ 'medium-12': isSingle, 'medium-6': !isSingle }" v-for="result in processedProposals">
-            <h3 class="c-title">{{ result.timetable.track }}</h3>
-            <h3 class="c-title"><i class="fi-clock"></i>{{ result.timetable.starts_at | moment}} - {{ result.timetable.end_at | moment}}</h3>
-        </div>
-    </div>
 
-    <div class="expanded row align-top">
-        <div class="columns" v-bind:class="{ 'medium-12': isSingle, 'medium-6': !isSingle }" v-for="result in processedProposals">
-            <span class="label secondary"><i class="fi-clock"></i> {{ result.timetable.length_min }} min</span>
-            <h2>{{ result.title }}</h2>
-        </div>
-    </div>
+    <div v-if="loading"></div>
+    <div v-if="!loading">
 
-    <div class="expanded row align-top">
-        <div class="columns align-middle" v-bind:class="{ 'medium-12': isSingle, 'medium-6': !isSingle }" v-for="result in processedProposals">
-            <div class="columns small-12">
+        <p><img src="./image/logo.svg" width="15%"></p>
+        <hr>
+        <div class="row align-top" v-if="isSingle">
+            <div class="columns medium-12" v-for="result in processedProposals">
+
                 <div class="row">
+                    <div class="columns small-3">
+                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="100%"></p>
+                        <p v-else><img class="radius" src="./image/no_icon.png" width="100%"></p>
+                    </div>
+
                     <div class="columns small-4">
-                        <p v-if="result.speaker.avatar_url"><img :src="result.speaker.avatar_url" width="100%"></p>
-                        <p v-else><img src="./image/no_icon.png" width="100%"></p>
-                        <p><img :src="result.qr" width="100%"></p>
+                        <h1 class="c-title">{{ result.speaker.name }}</h1>
+                        <h3 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h3>
+                    </div>
 
-                        <p><i class="fi-torso"></i>{{ result.speaker.name }}</p>
 
-                        <p v-if="result.speaker.twitter">
-                            <i class="fi-social-twitter"></i>{{ result.speaker.twitter }}
-                        </p>
+                    <div class="columns small-5">
+                        <div class="clearfix">
+                            <h1 class="c-title float-right">{{ result.timetable.track }}</h1>
+                        </div>
+                        <div class="clearfix">
+                            <h2 class="c-title float-right">{{ result.timetable.starts_at | moment_day}}</h2>
+                        </div>
+                        <div class="clearfix">
+                            <h2 class="c-title float-right"><i class="fi-clock"></i>{{ result.timetable.starts_at | moment_time}} - {{ result.timetable.end_at | moment_time}}</h2>
+                        </div>
+                        <div class="clearfix">
+                            <h2 class="c-title float-right">{{ result.hashTag }}</h2>
+                        </div>
 
                     </div>
 
-                    <div class="columns small-8">
+                </div>
 
-                       <p>{{ result.abstract }}</p>
+
+
+            </div>
+            <div class="columns medium-12" v-for="result in processedProposals">
+                <span class="label secondary"><i class="fi-clock"></i> {{ result.timetable.length_min }} min</span>
+                <h1 class="c-title">{{ result.title }}</h1>
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="row align-top" v-if="!isSingle">
+            <div class="columns medium-6" v-for="result in processedProposals">
+
+                <div class="clearfix">
+                    <h4 class="c-title float-right">{{ result.hashTag }}</h4>
+                    <h2 class="c-title float-left">{{ result.timetable.track }}</h2>
+                </div>
+                <h2 class="c-title"><i class="fi-clock"></i>{{ result.timetable.starts_at | moment_time}} - {{ result.timetable.end_at | moment_time}}</h2>
+
+
+
+                <div class="row">
+                    <div class="columns small-5">
+                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="100%"></p>
+                        <p v-else><img class="radius" src="./image/no_icon.png" width="100%"></p>
+                    </div>
+
+                    <div class="columns small-7">
+                        <h2 class="c-title">{{ result.speaker.name }}</h2>
+                        <h3 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h3>
                     </div>
                 </div>
+
             </div>
+
+            <div class="columns medium-6" v-for="result in processedProposals">
+                <span class="label secondary"><i class="fi-clock"></i> {{ result.timetable.length_min }} min</span>
+                <h3 class="c-title">{{ result.title }}</h3>
+            </div>
+
         </div>
     </div>
 </div>
 
-</div>
+
 
 <script src="https://unpkg.com/vue"></script>
 <script src="https://unpkg.com/vue-router"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="https://unpkg.com/moment/moment.js"></script>
-<script src="https://unpkg.com/moment/locale/ja.js"></script>
 <script src="https://unpkg.com/lodash/lodash.min.js"></script>
 <script src="https://unpkg.com/vue-qriously/dist/vue-qriously.js"></script>
 <script src="app.js"></script>

@@ -4,12 +4,13 @@ const trackId = {
     'Track A' : 0,
     'Track B' : 1
 };
+const hashTag = {
+    'Track A' : '#phperkaigi #a',
+    'Track B' : '#phperkaigi #b'
+};
 
 function createUrl (path) {
     return forteeUri + path
-}
-function createQRUrl (url) {
-    return 'https://chart.apis.google.com/chart?chs=300x300&cht=qr&chl=' + url
 }
 
 const router = new VueRouter({
@@ -22,7 +23,8 @@ const app = new Vue({
     el: '#app',
     data: {
         results: [],
-        isSingle: true
+        isSingle: true,
+        loading: true
     },
     mounted() {
         this.getProposals()
@@ -33,6 +35,7 @@ const app = new Vue({
             let url = createUrl('api/proposals/accepted')
             axios.get(url).then(response => {
                 this.results = response.data.proposals
+                this.loading = false
             })
                 .catch(error => {
                     console.log(error)
@@ -48,8 +51,8 @@ const app = new Vue({
 
             this.results.forEach(proposal => {
 
-                //let now = moment().toISOString() //'2019-03-31T10:20:00+09:00'
-                let now = moment('2019-03-31T10:20:00+09:00').toISOString()
+                let now = moment().add(this.$route.query.add_min, 'minutes').toISOString()
+                //let now = moment('2019-03-31T10:20:00+09:00').toISOString()
                 if (moment(proposal.timetable.starts_at).isAfter(now)) {
 
                     //終了時間
@@ -57,13 +60,12 @@ const app = new Vue({
 
                     //url
                     proposal.url = createUrl('proposal/' + proposal.uuid)
-                    proposal.qr  = createQRUrl(proposal.url);
+                    proposal.hashTag = hashTag[proposal.timetable.track]
 
                     //ルームチェック
                     if (this.$route.query.room) {
                         if (proposals.length == 0 && proposal.timetable.track == this.$route.query.room)
                         {
-                            console.log('hit')
                             this.isSingle = true;
                             proposals.push(proposal)
                         }
@@ -78,8 +80,11 @@ const app = new Vue({
         }
     },
     filters: {
-        moment: function (date) {
+        moment_time: function (date) {
             return moment(date).format('HH:mm')
+        },
+        moment_day: function (date) {
+            return moment(date).format('M/D (ddd)')
         }
     }
 })
