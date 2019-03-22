@@ -24,7 +24,8 @@ const app = new Vue({
     data: {
         results: [],
         isSingle: true,
-        loading: true
+        loading: true,
+        isMovie: false
     },
     mounted() {
         this.getProposals()
@@ -44,7 +45,8 @@ const app = new Vue({
     },
     computed: {
         processedProposals() {
-            let proposals = [];
+            this.isMovie = (this.$route.query.is_movie == 0)
+            let proposals = []
 
             //時間順にソート
             this.results = _.orderBy(this.results, ['timetable.starts_at'], ['asc'])
