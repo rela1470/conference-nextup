@@ -45,7 +45,7 @@ const app = new Vue({
     },
     computed: {
         processedProposals() {
-            this.isMovie = (this.$route.query.is_movie == 0)
+            this.isMovie = (this.$route.query.is_movie == 1)
             let proposals = []
 
             //時間順にソート
@@ -53,12 +53,19 @@ const app = new Vue({
 
             this.results.forEach(proposal => {
 
+                //現在時刻
                 let now = moment().add(this.$route.query.add_min, 'minutes').toISOString()
-                //let now = moment('2019-03-31T10:20:00+09:00').toISOString()
-                if (moment(proposal.timetable.starts_at).isAfter(now)) {
+                //let now = moment('2019-03-31T14:39:00+09:00').toISOString()
 
-                    //終了時間
-                    proposal.timetable.end_at = moment(proposal.timetable.starts_at).add(proposal.timetable.length_min, 'minutes')
+                //終了時間
+                proposal.timetable.end_at = moment(proposal.timetable.starts_at).add(proposal.timetable.length_min, 'minutes')
+
+                //is_movieがtrueだったら現在のセッションを表示
+                //falseだったら次のセッションを表示
+                if (
+                    (this.isMovie && moment(proposal.timetable.end_at).add('10', 'minutes').isAfter(now) ) ||
+                    (! this.isMovie && moment(proposal.timetable.starts_at).isAfter(now))
+                ) {
 
                     //url
                     proposal.url = createUrl('proposal/' + proposal.uuid)

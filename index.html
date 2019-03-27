@@ -12,7 +12,7 @@
 <div class="container" id="app">
 
     <div v-if="loading"></div>
-    <div v-if="!loading && isMovie">
+    <div v-if="!loading && !isMovie">
 
         <p><img src="./image/logo.svg" width="15%"></p>
         <hr>
@@ -95,7 +95,7 @@
 
         </div>
     </div>
-    <div v-if="!loading && !isMovie">
+    <div v-if="!loading && isMovie">
         <div class="row align-top" v-if="isSingle">
             <div class="columns medium-12" v-for="result in processedProposals">
 
