@@ -60,10 +60,12 @@ const app = new Vue({
                 //終了時間
                 proposal.timetable.end_at = moment(proposal.timetable.starts_at).add(proposal.timetable.length_min, 'minutes')
 
+                let addMin = (proposal.title == 'ランチセッション') ? 40 : 10
+
                 //is_movieがtrueだったら現在のセッションを表示
                 //falseだったら次のセッションを表示
                 if (
-                    (this.isMovie && moment(proposal.timetable.end_at).add('10', 'minutes').isAfter(now) ) ||
+                    (this.isMovie && moment(proposal.timetable.end_at).add(addMin, 'minutes').isAfter(now) ) ||
                     (! this.isMovie && moment(proposal.timetable.starts_at).isAfter(now))
                 ) {
 
