@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PHPerKaigi Next UP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation-flex.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
+    <link data-n-head="true" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fugaz+One">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div class="container" id="app">
+
+    <div v-if="loading"></div>
+    <div v-if="!loading && !isMovie">
+
+        <p><img src="./logo.svg" width="15%"></p>
+        <hr>
+        <div class="row align-top" v-if="isSingle">
+            <div class="columns medium-12" v-for="result in processedProposals">
+
+                <div class="row">
+                    <div class="columns small-3">
+                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="100%"></p>
+                        <p v-else><img class="radius" src="./no_icon.png" width="100%"></p>
+                    </div>
+
+                    <div class="columns small-4">
+                        <h1 class="c-title">{{ result.speaker.name }}</h1>
+                        <h3 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h3>
+                    </div>
+
+
+                    <div class="columns small-5">
+                        <div class="clearfix">
+                            <h2 class="c-title float-right">Lightning Talk</h2>
+                        </div>
+                        <div class="clearfix">
+                            <h2 class="c-title float-right">{{ result.hashTag }}</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="columns medium-12" v-for="result in processedProposals">
+                <h1 class="c-title">{{ result.title }}</h1>
+            </div>
+
+        </div>
+
+    </div>
+    <div v-if="!loading && isMovie">
+        <div class="row align-top" v-if="isSingle">
+            <div class="columns medium-12" v-for="result in processedProposals">
+
+                <div class="row">
+                    <div class="columns small-4">
+                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="100%"></p>
+                        <p v-else><img class="radius" src="./no_icon.png" width="100%"></p>
+                    </div>
+
+                    <div class="columns small-8">
+                        <h2 class="c-title">{{ result.speaker.name }}</h2>
+                        <h3 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columns medium-12" v-for="result in processedProposals">
+                <h3 class="c-title">{{ result.title }}</h3>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue-router"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/moment/moment.js"></script>
+<script src="https://unpkg.com/lodash/lodash.min.js"></script>
+<script src="https://unpkg.com/vue-qriously/dist/vue-qriously.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
