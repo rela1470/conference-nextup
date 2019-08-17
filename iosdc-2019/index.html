@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PHPerKaigi Next UP</title>
+    <link rel="stylesheet" href="../css/foundation-flex.min.css">
+    <link rel="stylesheet" href="../css/foundation-icons.min.css">
+    <link data-n-head="true" rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="container" id="app">
+
+    <div v-if="!isMovie" v-cloak>
+
+        <p><img src="./image/logo.png" width="15%"></p>
+        <hr>
+        <div class="row align-top" v-if="isSingle">
+            <div class="columns medium-12" v-for="result in processedProposals">
+
+                <div class="row">
+                    <div class="columns small-3">
+                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="100%"></p>
+                        <p v-else><img class="radius" src="./image/no_icon.png" width="100%"></p>
+                    </div>
+
+                    <div class="columns small-4">
+                        <h1 class="c-title">{{ result.speaker.name }}</h1>
+                        <h3 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h3>
+                    </div>
+
+
+                    <div class="columns small-5">
+                        <div class="clearfix">
+                            <h1 class="c-title float-right">{{ result.timetable.track }}</h1>
+                        </div>
+                        <div class="clearfix">
+                            <h2 class="c-title float-right">{{ result.timetable.starts_at | moment_day}}</h2>
+                        </div>
+                        <div class="clearfix">
+                            <h2 class="c-title float-right"><i class="fi-clock"></i>{{ result.timetable.starts_at | moment_time}} - {{ result.timetable.end_at | moment_time}}</h2>
+                        </div>
+                        <div class="clearfix">
+                            <h2 class="c-title float-right">{{ result.hashTag }}</h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="columns medium-12" v-for="result in processedProposals">
+                <span class="label secondary"><i class="fi-clock"></i> {{ result.timetable.length_min }} min</span>
+                <h1 class="c-title">{{ result.title }}</h1>
+            </div>
+
+        </div>
+
+        <div class="row align-top" v-if="!isSingle" style="zoom: 0.5;">
+            <div class="columns medium-3" v-for="result in processedProposals">
+
+                <div class="clearfix">
+                    <h4 class="c-title float-right">{{ result.hashTag }}</h4>
+                    <h2 class="c-title float-left">{{ result.timetable.track }}</h2>
+                </div>
+                <h2 class="c-title"><i class="fi-clock"></i>{{ result.timetable.starts_at | moment_time}} - {{ result.timetable.end_at | moment_time}}</h2>
+
+
+
+                <div class="row">
+                    <div class="columns small-5">
+                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="100%"></p>
+                        <p v-else><img class="radius" src="./image/no_icon.png" width="100%"></p>
+                    </div>
+
+                    <div class="columns small-7">
+                        <h2 class="c-title">{{ result.speaker.name }}</h2>
+                        <h4 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h4>
+                    </div>
+                </div>
+
+                <h4 class="c-title"><i class="fi-clock"></i> {{ result.timetable.length_min }} min</h4>
+                <h3 class="c-title">{{ result.title }}</h3>
+            </div>
+
+        </div>
+    </div>
+    <div v-if="isMovie" v-cloak>
+        <div class="row align-top" v-if="isSingle">
+            <div class="columns medium-12" v-for="result in processedProposals">
+
+                <div class="row">
+                    <div class="columns small-4">
+                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="100%"></p>
+                        <p v-else><img class="radius" src="./image/no_icon.png" width="100%"></p>
+                    </div>
+
+                    <div class="columns small-8">
+                        <h2 class="c-title">{{ result.speaker.name }}</h2>
+                        <h3 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columns medium-12" v-for="result in processedProposals">
+                <h3 class="c-title">{{ result.title }}</h3>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="../js/vue.js"></script>
+<script src="../js/vue-router.js"></script>
+<script src="../js/axios.min.js"></script>
+<script src="../js/moment.js"></script>
+<script src="../js/lodash.min.js"></script>
+<script src="../js/vue-qriously.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
