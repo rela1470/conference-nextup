@@ -1,0 +1,52 @@
+body {
+    background-color: #ffffff;
+    /*background-image: url("./image/back.png");*/
+    margin: 2em;
+    color: #385eaa;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+h1.c-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size:4rem;
+    font-weight:400;
+    display:flex;
+    align-items:center;
+}
+
+h1.japanese-title{
+    font-family: Verdana,'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+    font-size:4rem;
+    font-weight:900;
+    display:flex;
+    align-items:center;
+}
+
+h2.c-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    font-weight:400;
+    display:flex;
+    align-items:center;
+}
+h3.c-title{
+    font-family: Verdana,'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+    font-size:2.5rem;
+    font-weight:900;
+    display:flex;
+    align-items:center;
+}
+h4.c-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1.5rem;
+    font-weight:200;
+    display:flex;
+    align-items:center;
+}
+
+img.radius{
+    border-radius: 50%
+}
