@@ -1,12 +1,18 @@
-const forteeUri = "https://fortee.jp/phperkaigi-2019/";
+const forteeUri = "https://fortee.jp/iosdc-japan-2019/";
 
 const trackId = {
     'Track A' : 0,
-    'Track B' : 1
+    'Track B' : 1,
+    'Track C' : 2,
+    'Track D' : 3,
+    'Track E' : 4,
 };
 const hashTag = {
-    'Track A' : '#phperkaigi #a',
-    'Track B' : '#phperkaigi #b'
+    'Track A' : '#iosdc #a',
+    'Track B' : '#iosdc #b',
+    'Track C' : '#iosdc #b',
+    'Track D' : '#iosdc #b',
+    'Track E' : '#iosdc #b',
 };
 
 function createUrl (path) {
@@ -25,15 +31,15 @@ const app = new Vue({
         results: [],
         isSingle: true,
         loading: true,
-        isMovie: false,
+        isMovie: false
     },
     mounted() {
         this.getProposals()
     },
     methods: {
         getProposals() {
-
-            let url = createUrl('api/proposals/accepted.json')
+            let url = 'api/accepted.json';
+            //let url = createUrl('api/proposals/accepted')
             axios.get(url).then(response => {
                 this.results = response.data.proposals
                 this.loading = false
@@ -41,6 +47,7 @@ const app = new Vue({
                 .catch(error => {
                     console.log(error)
                 });
+
         }
     },
     computed: {
@@ -59,15 +66,26 @@ const app = new Vue({
 
             this.results.forEach(proposal => {
 
-                //LT固定
-                if (proposal.timetable.length_min != 5) return
+                //ルームチェック
+                if (this.$route.query.room) {
+                    if (proposals.length == 0 && proposal.timetable.track == this.$route.query.room) {
 
-                //表示は1個
-                if (proposals.length > 0) return
+                        if (proposal.speaker.avatar_url) {
+                            proposal.speaker.avatar_url = 'icon/' + proposal.speaker.avatar_url.split("/").slice(-1)[0]; //urlをローカルに変更
+                        }
 
-                //now_id
-                now_id ++
-                if (now_id == next_id) proposals.push(proposal)
+                        //LT固定
+                        if (proposal.timetable.length_min != 5) return
+
+                        //表示は1個
+                        if (proposals.length > 0) return
+
+                        //now_id
+                        now_id++
+                        if (now_id == next_id) proposals.push(proposal)
+                    }
+                }
+
             })
             this.isSingle = proposals.length < 2
             return proposals

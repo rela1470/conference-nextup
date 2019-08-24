@@ -38,8 +38,8 @@ const app = new Vue({
     },
     methods: {
         getProposals() {
-            //let url = 'api/accepted.json';
-            let url = createUrl('api/proposals/accepted')
+            let url = 'api/accepted.json';
+            //let url = createUrl('api/proposals/accepted')
             axios.get(url).then(response => {
                 this.results = response.data.proposals
                 this.loading = false
@@ -59,6 +59,10 @@ const app = new Vue({
             this.results = _.orderBy(this.results, ['timetable.starts_at'], ['asc'])
 
             this.results.forEach(proposal => {
+
+                if (proposal.speaker.avatar_url) {
+                    proposal.speaker.avatar_url = 'icon/' + proposal.speaker.avatar_url.split("/").slice(-1)[0]; //urlをローカルに変更
+                }
 
                 //現在時刻
                 let now = moment().add(this.$route.query.add_min, 'minutes').toISOString()
