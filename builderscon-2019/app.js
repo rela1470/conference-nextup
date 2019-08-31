@@ -80,8 +80,8 @@ const app = new Vue({
                 //is_movieがtrueだったら現在のセッションを表示
                 //falseだったら次のセッションを表示
                 if (
-                    (this.isMovie && moment(proposal.ends_on).add(addMin, 'minutes').isAfter(now) ) ||
-                    (! this.isMovie && moment(proposal.starts_on).isAfter(now))
+                    (this.isMovie && moment(proposal.timetable.end_at).add(addMin, 'minutes').isAfter(now) ) ||
+                    (! this.isMovie && moment(proposal.timetable.starts_at).isAfter(now))
                 ) {
 
                     //url
