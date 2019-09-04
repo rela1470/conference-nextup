@@ -10,9 +10,9 @@ const trackId = {
 const hashTag = {
     'Track A' : '#iosdc #a',
     'Track B' : '#iosdc #b',
-    'Track C' : '#iosdc #b',
-    'Track D' : '#iosdc #b',
-    'Track E' : '#iosdc #b',
+    'Track C' : '#iosdc #c',
+    'Track D' : '#iosdc #d',
+    'Track E' : '#iosdc #e',
 };
 
 function createUrl (path) {
@@ -58,15 +58,15 @@ const app = new Vue({
             //時間順にソート
             this.results = _.orderBy(this.results, ['timetable.starts_at'], ['asc'])
 
-            this.results.forEach(proposal => {
+                this.results.forEach(proposal => {
 
-                if (proposal.speaker.avatar_url) {
-                    proposal.speaker.avatar_url = 'icon/' + proposal.speaker.avatar_url.split("/").slice(-1)[0]; //urlをローカルに変更
-                }
+                    if (proposal.speaker.avatar_url) {
+                        proposal.speaker.avatar_url = 'icon/' + proposal.speaker.avatar_url.split("/").slice(-1)[0]; //urlをローカルに変更
+                    }
 
                 //現在時刻
                 let now = moment().add(this.$route.query.add_min, 'minutes').toISOString()
-                //let now = moment('2019-03-31T14:39:00+09:00').toISOString()
+                //let now = moment('2019-09-06T13:30:00+09:00').toISOString()
 
                 //終了時間
                 proposal.timetable.end_at = moment(proposal.timetable.starts_at).add(proposal.timetable.length_min, 'minutes')
@@ -93,11 +93,11 @@ const app = new Vue({
                         }
                     }
                     else {
-                        if (proposals.length < 4) proposals.push(proposal)
+                        if (proposals.length < 5) proposals.push(proposal)
                     }
                 }
             })
-            this.isSingle = proposals.length < 4
+            this.isSingle = proposals.length < 5
             return proposals
         }
     },

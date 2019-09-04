@@ -13,9 +13,13 @@
 
     <div v-if="!isMovie" v-cloak>
 
-        <p><img src="./image/logo.png" width="15%"></p>
-
         <div class="row align-top" v-if="isSingle">
+
+            <div class="columns small-12">
+                <p><img src="./image/logo.png" width="20%"></p>
+                <p>&nbsp;</p>
+            </div>
+
             <div class="columns medium-12" v-for="result in processedProposals">
 
                 <div class="row">
@@ -26,7 +30,7 @@
 
                     <div class="columns small-4">
                         <h1 class="c-title">{{ result.speaker.name }}</h1>
-                        <h3 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h3>
+                        <h3 class="c-title" v-if="result.speaker.twitter">@{{ result.speaker.twitter }}</h3>
                     </div>
 
 
@@ -38,7 +42,7 @@
                             <h2 class="c-title float-right">{{ result.timetable.starts_at | moment_day}}</h2>
                         </div>
                         <div class="clearfix">
-                            <h2 class="c-title float-right"><i class="fi-clock"></i>{{ result.timetable.starts_at | moment_time}} - {{ result.timetable.end_at | moment_time}}</h2>
+                            <h2 class="c-title float-right"><i class="fi-clock"></i>&nbsp;{{ result.timetable.starts_at | moment_time}} - {{ result.timetable.end_at | moment_time}}</h2>
                         </div>
                         <div class="clearfix">
                             <h2 class="c-title float-right">{{ result.hashTag }}</h2>
@@ -52,19 +56,19 @@
 
             </div>
             <div class="columns medium-12" v-for="result in processedProposals">
-                <span class="label secondary"><i class="fi-clock"></i> {{ result.timetable.length_min }} min</span>
+                <p>&nbsp;</p>
                 <h1 class="japanese-title">{{ result.title }}</h1>
             </div>
 
         </div>
 
-        <div class="row align-top" v-if="!isSingle" style="zoom: 0.6;border-top:solid;">
-            <div class="columns medium-12" v-for="result in processedProposals" style="border-bottom:solid;">
+        <div class="row align-top" v-if="!isSingle" style="zoom: 0.55;border-top:solid;">
+                <div class="columns medium-12" v-for="result in processedProposals" style="border-bottom:solid;">
 
                 <div class="row">
                     <div class="columns small-2">
                         <br>
-                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="65%"></p>
+                        <p v-if="result.speaker.avatar_url"><img class="radius" :src="result.speaker.avatar_url" width="45%"></p>
                         <p v-else><img class="radius" src="./image/no_icon.png" width="65%"></p>
                     </div>
 
@@ -76,7 +80,7 @@
                                 <h2 class="c-title float-left">{{ result.speaker.name }}</h2>
                             </div>
                             <div class="columns small-6">
-                                <h2 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>&nbsp;{{ result.speaker.twitter }}</h2>
+                                <h2 class="c-title" v-if="result.speaker.twitter">@{{ result.speaker.twitter }}</h2>
                             </div>
                         </div>
 
@@ -87,8 +91,8 @@
                     <div class="columns small-3">
 
                         <h2 class="c-title">{{ result.timetable.track }}</h2>
-                        <h2 class="c-title"><i class="fi-clock"></i>{{ result.timetable.starts_at | moment_time}} - {{ result.timetable.end_at | moment_time}}</h2>
-                        <h2 class="c-title"><i class="fi-clock"></i> {{ result.timetable.length_min }} min</h2>
+                        <h2 class="c-title"><i class="fi-clock"></i>&nbsp;{{ result.timetable.starts_at | moment_time}} - {{ result.timetable.end_at | moment_time}}</h2>
+                        <h2 class="c-title"><i class="fi-clock"></i>&nbsp;{{ result.timetable.length_min }} min</h2>
 
                     </div>
                 </div>
@@ -109,7 +113,7 @@
 
                     <div class="columns small-8">
                         <h2 class="c-title">{{ result.speaker.name }}</h2>
-                        <h3 class="c-title" v-if="result.speaker.twitter"><i class="fi-social-twitter"></i>{{ result.speaker.twitter }}</h3>
+                        <h3 class="c-title" v-if="result.speaker.twitter">@{{ result.speaker.twitter }}</h3>
                     </div>
 
                 </div>
