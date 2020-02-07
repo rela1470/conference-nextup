@@ -1,0 +1,57 @@
+body {
+    color: #1f0411;
+    font-family: 'Squada One', 'M PLUS 1p';
+}
+
+[v-cloak] {
+    display: none;
+}
+
+h1.c-title{
+    font-family: 'Squada One', 'M PLUS 1p';
+    font-size:4rem;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+}
+
+h1.session-title{
+    font-family: 'M PLUS 1p';
+    font-size:3.5rem;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+}
+
+h2.c-title{
+    font-family: 'Squada One', 'M PLUS 1p';
+    font-size:3rem;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+}
+h3.c-title {
+    font-family: 'Squada One', 'M PLUS 1p';
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+h3.session-title{
+    font-family: 'M PLUS 1p';
+    font-size:2.5rem;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+}
+h4.c-title{
+    font-family: 'Squada One', 'M PLUS 1p';
+    font-size:1.5rem;
+    font-weight:100;
+    display:flex;
+    align-items:center;
+}
+
+img.radius{
+    border-radius: 50%
+}

@@ -1,0 +1,1210 @@
+{
+  "proposals": [
+
+    {
+      "uuid": "organizer-001" ,
+      "title": "前夜祭 オープニング" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "長谷川智希" ,
+        "kana": "ハセガワトモキ" ,
+        "twitter": "tomzoh" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/46975f57-8817-46dd-a21d-70835120e19d.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-09T16:30:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-002" ,
+      "title": "Today's Update" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "長谷川智希" ,
+        "kana": "ハセガワトモキ" ,
+        "twitter": "tomzoh" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/46975f57-8817-46dd-a21d-70835120e19d.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-09T18:35:00+09:00" ,
+        "length_min": 10
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-003" ,
+      "title": "PHPre Party" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "" ,
+        "kana": "" ,
+        "twitter": "" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/phperkaigi.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-09T20:00:00+09:00" ,
+        "length_min": 120
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-004" ,
+      "title": "オープニング" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "長谷川智希" ,
+        "kana": "ハセガワトモキ" ,
+        "twitter": "tomzoh" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/46975f57-8817-46dd-a21d-70835120e19d.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T10:00:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-005" ,
+      "title": "Beginners Lightning Talks" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "" ,
+        "kana": "" ,
+        "twitter": "" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/phperkaigi.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T17:00:00+09:00" ,
+        "length_min": 20
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-006" ,
+      "title": "Today's Update" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "長谷川智希" ,
+        "kana": "ハセガワトモキ" ,
+        "twitter": "tomzoh" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/46975f57-8817-46dd-a21d-70835120e19d.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T17:35:00+09:00" ,
+        "length_min": 10
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-007" ,
+      "title": "PHPer茶会" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "" ,
+        "kana": "" ,
+        "twitter": "" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/phperkaigi.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T18:00:00+09:00" ,
+        "length_min": 140
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-008" ,
+      "title": "Today's Update" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "長谷川智希" ,
+        "kana": "ハセガワトモキ" ,
+        "twitter": "tomzoh" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/46975f57-8817-46dd-a21d-70835120e19d.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T10:00:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-009" ,
+      "title": "Lightning Talks" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "" ,
+        "kana": "" ,
+        "twitter": "" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/phperkaigi.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T15:30:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-010" ,
+      "title": "PHPer Code Golf by pixiv 解説" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "うさみけんた" ,
+        "kana": "ウサミケンタ" ,
+        "twitter": "tadsan" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/a0c1912a-8d40-4306-86d6-5d4539521f84.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T16:25:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-011" ,
+      "title": "クロージング" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "長谷川智希" ,
+        "kana": "ハセガワトモキ" ,
+        "twitter": "tomzoh" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/46975f57-8817-46dd-a21d-70835120e19d.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T17:10:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "organizer-012" ,
+      "title": "懇親会" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "" ,
+        "kana": "" ,
+        "twitter": "" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/phperkaigi.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T18:00:00+09:00" ,
+        "length_min": 140
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+
+    {
+      "uuid": "lunch-001" ,
+      "title": "[ランチセッション]エキサイトの大改造を大解剖！" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "エキサイト株式会社" ,
+        "kana": "エキサイト" ,
+        "twitter": "excite__pr" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/excite.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T12:20:00+09:00" ,
+        "length_min": 20
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+
+
+
+
+
+    {
+      "uuid": "e437c90e-c16d-4ab9-9f4d-6c3fde6c8892" ,
+      "title": "自作して理解するxUnit" ,
+      "abstract": "普段私たちが触れているPHPUnitなどは、xUnitと呼ばれるテスティングフレームワークの一つです。Kent Beck氏がSmalltalkで実装したものが様々な言語で広がってきた流れで生まれています。何気なく使っているこのPHPUnitを理解する足がかりに、xUnit自体を自分でPHPで実装すると、xUnitの考え方やPHPUnitに対する理解が深まるのではと思います。\r\nこのトークでは、そんなxUnitを実装して理解するという話です。聴講者の方々が普段使っているツールの中について考えるきっかけになれば幸いです。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "東口 和暉" ,
+        "kana": "ヒガシグチ カズキ" ,
+        "twitter": "hgsgtk" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/524a769e-8ae0-4eef-b393-cf5b4388bc09.jpg"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T10:25:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "270a697c-f838-4cd0-ae07-38e01bad1326" ,
+      "title": "PHP で JVM を実装して、 HelloWorld を出力してみる" ,
+      "abstract": "みなさんは PHP にどのようなイメージをお持ちでしょうか。Web のイメージが強いのではないかと思います。\r\nしかし、PHP は Web 系以外、例えばそう、 JVM などを実装することも可能なのです。\r\nJVM とは、 Java Virtual Machine の略で、 中間コードにコンパイルされた class ファイルを動かすための仮想マシンのことです。\r\nJVM は JVM Spec と呼ばれる Oracle が公開しているドキュメントがあるため実は PHP でも開発することは可能です。\r\n30 億のデバイスで PHP が走ると思うとワクワクしますよね。\r\n本セッションは PHP という言語の枠組みの中でどのようにして JVM のようなスタックマシンを実装したのかをトークさせていただきつつ\r\n実際に Hello World を出力するところまでをお話できればと思っております。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "めもりー" ,
+        "kana": "メモリー" ,
+        "twitter": "m3m0r7" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/47ccedde-0e06-428e-b33c-f9ac3f786389.jpg"
+      } ,
+      "created": "2019-11-01T17:14:06+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-09T17:25:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "c9720cdb-7280-43c7-ae43-c4e7b61af457" ,
+      "title": "AWS Lambda にCustom RuntimeでPHPを導入したシステムに改修を加えてUT導入まで行った話" ,
+      "abstract": "AWSのLambdaにCustom RuntimeでPHPの導入出来るようになってから日が経ち、私が関わった案件でもLambda for PHPを導入したシステムがあります。\r\n\r\n別の開発者が初めて作成し初めて載せたものでどういった感覚で作られていたのか、そして実装面に対して問題等などは起きていなかったのか、といった部分を段階的に紐解いた話をいたします。\r\nそして当時リリース優先でやらなかったUTについても実装を行い、そのUT実装に至るまでの手順などもお話します。\r\n\r\nLambdaでCustom Runtimeで動かしたい方、またはLambdaには載せたけどUTの実装まで至らなかった方にはご参考になる情報を発信できればと思います。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "しろぐちゆうま" ,
+        "kana": "しろぐちゆうま" ,
+        "twitter": "yu_mashirou" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/32a04ba3-0a65-40a1-b2de-93776c96082f.png"
+      } ,
+      "created": "2019-11-01T18:36:56+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T15:30:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "cd27671c-a46e-4cb1-ae4f-efb7bd4b8443" ,
+      "title": "今だからこそ振り返る register_globals" ,
+      "abstract": "かつて\r\n\r\nQ.「セキュアなWebアプリケーションを作るにはどうすればいいか」\r\nA.「まず PHP を避ける」\r\n\r\nとまで言わしめた 古い PHP が活躍していた時代、その中心的機能である register_globals を知っていますか。この機能を on にしたが最後、リクエストパラメータは問答無用でグローバル変数に展開されてしまうという、お手軽且つ凶悪な機能でした。変数汚染攻撃の温床ともなり、「PHP is 脆弱性」とまで言われるようになった所以です。\r\n\r\nそんな register_globals も PHP 5.4 で姿を消し、この機能を使ったことのある人の方が少ない時代になっていると思います。\r\nしかし、そんな時代だからこそ皆さんと振り返っていきたいです。\r\n\r\n・ register_globals とはどんな機能なのか\r\n・ ドキュメントには載っていない register_globals の動き\r\n・ PHP 5.4 以上でも使える！ register_globals" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "gongo" ,
+        "kana": "ゴンゴ" ,
+        "twitter": "gongoZ" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/c75106fa-9793-4a9d-9114-1a55aeab02b5.jpg"
+      } ,
+      "created": "2019-11-01T21:46:26+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T14:30:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "8926dd08-4231-4c14-9439-9b1272c9fd37" ,
+      "title": "PHPでleetCodeのeasyレベル100問ノック" ,
+      "abstract": "PHPでも競技プログラミングは学べるんだ。\r\n競技プログラミングのズブの素人が、PHPで簡単な問題を中心に100問やってみた結果を共有する。\r\nPHPの懐は広い。便利関数を使って楽できることもある。しかし便利関数の裏の動きを想像しないと実行が遅すぎたりするのだ。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "yamotuki" ,
+        "kana": "やもつき" ,
+        "twitter": "yamotuki" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/4dfcbc7a-b592-417a-9d54-776c643eccc6.jpg"
+      } ,
+      "created": "2019-11-06T11:37:44+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T15:35:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "85e954c0-c8b5-4d8b-a436-cb5e4d5d1657" ,
+      "title": "Inside  SWOOLE：非同期処理はどのようにして動くのか" ,
+      "abstract": "最近注目を浴びているPHPの非同期処理機能拡張が「Swoole」です。Swoole を利用することで、PHP単独では実現不可能だった同時並列処理が実現できます。\r\nでは Swoole の非同期処理は、一体どのように実装されているのでしょうか?\r\n本セッションでは Swoole のC++ソースコードの奥深くまで探索し、非同期処理がどのように実現されているかを解説します。\r\nこのセッションを聞けば、ブラックボックスの魔法のようだった Swoole がより身近になり、中で何が起きているか容易に想像できるようになるでしょう。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "小山哲志" ,
+        "kana": "コヤマテツジ" ,
+        "twitter": "koyhoge" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/18d34cd4-5575-406e-8fad-17236b822c5b.jpg"
+      } ,
+      "created": "2019-11-08T00:09:22+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-09T18:10:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "39543479-f722-436f-94b2-0f2437643f6f" ,
+      "title": "レンサバけもの道" ,
+      "abstract": "PHPといえばレンタルサーバー、そういう時代がありました。いや今もあります。\r\n\r\n数多くのサイトを提供しているレンタルサーバーは、PHPerKaigiのようなカンファレンスにいらっしゃる「エンジニア」な人たちには少々嫌われているような気がします。おっしゃることはわかります、私も人に手放しで勧めたりはしません。\r\n\r\nしかし、私はレンタルサーバーが好きです。\r\n\r\n長らくCMS実行環境としてしか見られていないレンタルサーバーですが、時代が進むにつれ、あれ？これっていいんじゃないの？もしかしてワンチャンあるのでは？という魅力も増えていると私は考えています。\r\n\r\nいま一度私とレンタルサーバーを見つめてみましょう。\r\n\r\n話す事\r\n・PHPer目線で見る、レンタルサーバーの強みと弱点\r\n・レンタルサーバーをPHPerとして活用するテク\r\n・モダン（？）なデプロイと開発、運用\r\n・VPSからレンサバにアプリを移管する話\r\n\r\n話さないこと\r\n・WordPressなどのCMSに関係すること\r\n・定番フレームワークがどうたらこうたら\r\n\r\n想定聴講者層\r\n・上記にピンときた人\r\n・レンタルサーバーをつかったことがない、最近つかっていない人\r\n・レンタルサーバー業者の人\r\n\r\n非想定聴講者層\r\n・マイノリティな好奇心や探究を、マジョリティでないだけで最大公倍数的な優劣と考えてしまう人\r\n・フレームワークのフレームに完全にはまっている人\r\n・業者から最悪Banされることに耐えられない人" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "uzulla" ,
+        "kana": "ウズラ" ,
+        "twitter": "uzulla" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/2cc9a4a5-e03b-46d9-aa6e-948f994f27d4.png"
+      } ,
+      "created": "2019-11-10T03:51:22+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T13:30:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "34ecbb9f-ead7-4d01-95a5-987bb441e6ef" ,
+      "title": "マルチパラダイムモデリング 〜異なるモデリングパラダイムから見るモデリングの勘所〜" ,
+      "abstract": "現在では PHP も立派なオブジェクト指向パラダイムを持つ言語のひとつとなりました。しかし、オブジェクトとは一体何でしょうか？\r\n\r\nモデリングパラダイムとしてはオブジェクトの他にもデータモデルの設計によく使われるERモデルやリレーショナルモデル、または関数型言語のベースになっているラムダ計算などがあります。\r\n\r\n本発表ではオブジェクトとは抽象データ型であるという立場を基本とし、その他のモデリングパラダイムとどのような共通点・相違点があるのか考察し、異なるモデリングパラダイムの間に生じてしまうインピーダンスミスマッチをどのように最小化していくかについて述べていきたいと思います。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "a-suenami" ,
+        "kana": "スエナミ" ,
+        "twitter": "a_suenami" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/1069bafd-0330-4473-96fc-d8b4ebcf58b9.jpg"
+      } ,
+      "created": "2019-11-12T15:29:13+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-09T17:25:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "5f4ff700-e70c-46ea-aa09-ede1ceae2025" ,
+      "title": "ぼくのかんがえたさいつよQueryBuilder" ,
+      "abstract": "世にはEloquentやDoctrineなど多くのDBIとそれに付随するクエリビルダーがあります。\r\n\r\nですが、実案件上では次の課題があり、痒いところに手が届き切らない面がありました。\r\n・特定フレームワークと密結合なため、既存案件に導入できない\r\n・メソッドの切り口がクエリの見た目に沿っているため、「だったら生で書けばいいじゃん」と言われがち\r\n・文字列表現を使わないと表現できないクエリがある\r\n・クエリの再利用は一度テキストに落とさないとならない\r\n・妙な所でインジェクションができるし、それを推奨するかのようなインターフェースがある\r\n\r\nそこで、15年以上商用でPHPを使用した知見を活かし、クエリビルダーを開発しました。\r\n\r\nこのセッションでは上記課題を解決し、様々な現場で導入しやすいクエリビルダーについてご紹介します。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "若葉 章" ,
+        "kana": "ワカバ アキラ" ,
+        "twitter": "effy_staffs" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/91632abe-69d5-4c2e-b280-79908605aaf5.png"
+      } ,
+      "created": "2019-11-13T21:04:49+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-10T15:30:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "79ba7175-711c-418f-9641-96c0ef2d3bc8" ,
+      "title": "PHP未経験者を育てる独自フレームワークの作り方" ,
+      "abstract": "弊社ではPHP未経験者の採用もやっております。その中の研修カリキュラムで独自フレームワークを作ってもらっており、研修用のPHP独自フレームワークの作り方を一挙公開します！\r\n具体的に自作する内容は下記です。\r\n- routing\r\n- CSRF対策\r\n- Cotroller\r\n- Model\r\n- バリデーション" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "カンボ@沖縄" ,
+        "kana": "カンボ@オキナワ" ,
+        "twitter": "kanbo0605" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/afa9ca54-ba6d-45d3-8607-b3238fbf6b2d.jpg"
+      } ,
+      "created": "2019-11-22T17:15:20+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T15:40:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "c5d18f2d-f427-4323-8b5d-0b8f100a677c" ,
+      "title": "PHPerKaigi2019への参加がきっかけで社内勉強会の主催するようになった話" ,
+      "abstract": "皆さんは勉強会を主催してみたいと思ったことはありませんか？\r\n私は不定期でPHPで学ぶデザインパターンの勉強会を開催しています。\r\n\r\nきっかけは、オフィスの会議室で行った、PHPerKaigi2019の発表の上映会でした。\r\n昨年のPHPerKaigiに参加し、非常に勉強になったので、社内のメンバーにも内容を共有したいと思いました。\r\n上映会は大盛況で、参加者と発表内容について様々な議論を交わしていくことで、より理解を深めることができました。\r\nこのことがきっかけで、「自分が学ぼうとする領域を他の人と一緒に勉強することで、より効率的かつ楽しみながら勉強できるのではないか」と思い、\r\n上映会でも盛り上がっていたデザインパターンをPHPで学ぶ勉強会を開催することにしました。\r\n\r\nこの発表では、勉強会を主催しようなんて思いもしなかったエンジニアが、自主的に勉強会を開くようになるまでのマインドの変化と自身の環境の変化についてお話できればと思います。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "MasaKu" ,
+        "kana": "マサク" ,
+        "twitter": "MasaKu_e" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/517d9e65-fb62-498b-a837-33fa69f8ff31.jpg"
+      } ,
+      "created": "2019-11-27T16:13:26+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T15:50:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "76aaa370-2b8a-4614-8b35-7df32185c5a0" ,
+      "title": "PHPでもVTuberになりたい！" ,
+      "abstract": "みなさんは「バーチャルYouTuber（VTuber）」と呼ばれる人たちをご存知でしょうか？\r\n\r\n3Dモデルやイラストのキャラクターを用いて、バーチャル世界から動画投稿・配信をする人たち。\r\nその撮影方法は人によって様々です。\r\n\r\nモーションキャプチャー専用機材を使う人。VR機材を使う人。Webカメラや、iPhoneのカメラでフェイストラッキングをする人。\r\nUnity、Unreal Engine、FaceRig、Live2D、JavaScript…いろんな技術が……\r\n\r\nPHP…我々のPHPは？みんな大好きなPHPは…？\r\nPHPでも…PHPでもできるもん…できるもん…！\r\n\r\nそんな熱い想いからはじまる物語をお届けします。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "ひかる" ,
+        "kana": "ヒカル" ,
+        "twitter": "hico00" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/7530a3ee-8a0d-4253-97da-33a3b472e822.jpg"
+      } ,
+      "created": "2019-11-28T13:28:21+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T15:30:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "a5dfd967-226c-4728-9be1-658aa498969d" ,
+      "title": "Zend VMにおける例外の実装" ,
+      "abstract": "PHPスクリプトの実行時には「コンパイル」と呼ばれる処理が行われ、スクリプトはZend VM（PHPの仮想的なCPU）の命令列に変換されてから実行されます。このZend VMは本物のCPUと似た命令も持っていますが、本物のCPUではあり得ない命令も持っています。その一つが例外処理に関わるものでしょう。\r\n\r\n本講演では、例外処理をZend VMはどのように実現しているのか、Zend VMと本物のCPUとの違いは何か、といった実装の詳細をPHPのCソースコードを交えて紹介します。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "hnw" ,
+        "kana": "ハナワ" ,
+        "twitter": "hnw" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/0503acfb-aed3-4dbb-ba1d-f2fa4b41bc78.jpg"
+      } ,
+      "created": "2019-12-09T11:31:09+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T13:30:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "6809fa55-f317-4972-bc6a-a660975abb07" ,
+      "title": "PHPでPHPを実装する 〜プログラミング言語実装入門〜" ,
+      "abstract": "プログラミング言語を実装したことはありますか？\r\n\r\n本トークではPHPでPHPを実装していくことで、プログラミング言語が動く仕組みを紹介していきます。\r\n静的解析でもよく利用されているnikic\/PHP-Parserを使うと、字句解析・構文解析をパスして処理部分に集中してPHPを実装できます。\r\nPHPを再実装するだけではなく処理内容を変えて「自分だけのPHP」を実装することもできちゃいます。\r\n\r\nまた、プログラムを表現するオブジェクトであるASTを扱えるようになると、静的解析などWebサービス開発の幅も広がります。\r\n例えば、PhanやPHPStanなどの静的解析ツールやそのプラグインを自作できるようになったり、より堅牢なPHPの世界を作ることができます。\r\n\r\n本トークではプログラミング言語を実装する楽しさを伝えるとともに、ASTに慣れ親しむきっかけになれば良いと思います。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "ふりーだむ" ,
+        "kana": "フリーダム" ,
+        "twitter": "tzm_freedom" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/fc9c14bd-2efc-4594-af32-f036a2fdc36d.png"
+      } ,
+      "created": "2019-11-28T16:05:03+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-11T13:30:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "9905bb7f-f3c0-4116-b0e0-72e655818692" ,
+      "title": "もしもPHPソースコードが読めたなら..." ,
+      "abstract": "もしも、PHPのソースコードが読めたら....。var_dumpがどんな風に実装されているのか、explodeはどのように動いているのか、Closureオブジェクトの実装はどうなっているのか？そんな疑問を、自分で直接見て理解することが出来るようになります。 でも、いざ読もうと思っても、C言語のソースコードを読むのは難しそうだし、そもそもどこから手を付けていいか分からないです。\r\n\r\n本トークでは、PHPのソースコードを読みこなしていく方法を、手順化して丁寧に解説します。PHPのソースコードを読むことが、一部玄人の特権ではなく、誰でも出来るんだと感じていただきたいです。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "富所　亮" ,
+        "kana": "トミドコロ　リョウ" ,
+        "twitter": "hanhan1978" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/7b6a258d-e0d3-41bb-8756-0c384ebaa9f1.png"
+      } ,
+      "created": "2019-11-28T17:08:33+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T14:00:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "c49035f7-284e-4b9d-9ddc-5565a61a8740" ,
+      "title": "RFCの歩き方" ,
+      "abstract": "PHP の仕様はどうやって決められているかご存じですか？\r\nPHP の仕様は PHP のコミュニティに参加する人々によって作成される RFC にて議論、決定されています。\r\nこの RFC は技術ブログや Twitter などでときどき取り上げられますが、実は自分で読んだことがない方は多いのではないでしょうか。\r\nRFC は大抵の場合、我々より PHP に精通した人が提案し、議論し、要否を決定しているため、RFC を読み、その提案理由を考えることは、PHP 上級者への一歩です。\r\n本セッションでは、そんな PHP の RFC について、基礎知識と読み方を紹介します。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "加納悠史" ,
+        "kana": "カノウユウジ" ,
+        "twitter": "YKanoh65" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/d056aba3-2a1b-4fea-9084-4cdc8af0a8ef.jpg"
+      } ,
+      "created": "2019-11-29T01:02:29+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T15:45:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "51d8e8b7-ee60-4262-9cac-d748199ea996" ,
+      "title": "Laravelから始めるテスト駆動開発" ,
+      "abstract": "恥ずかしいお話ですが、自分は最近までテストコードをちゃんと書いたことがありませんでした。。。\r\nLTではLaravelを新規に導入したタイミングで一念発起し、テスト駆動開発を始めたお話です。\r\n\r\nテスト初心者でも、テスト駆動開発は始められるんだ！と、\r\n自分と同じような状況の方にとって、少しでも励みになれればと思います。\r\n\r\n▼あらすじ\r\n・テスト駆動開発したいなーと、思ったきっかけ\r\n・0か100じゃなくて、少しづつ始めることが大切\r\n・テスト駆動開発始めてみた感じたこと" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "Tsukahara" ,
+        "kana": "ツカハラ" ,
+        "twitter": "AkitoTsukahara" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/4a9dab8a-9787-45c4-b960-e316911e6740.jpg"
+      } ,
+      "created": "2019-12-01T14:36:31+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T17:05:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "023b24d7-4d36-42fe-9610-946e8e31f29b" ,
+      "title": "Deep Module in PHP" ,
+      "abstract": "突然ですが「良いコード」とはどういうコードでしょうか？正解は一つではありませんが、私は「複雑さ」（Complexity）が見えないコードが良いコードだと考えています。複雑さが見えないコードはインターフェースが直感的で、リーダビリティが高くて、変更が容易です。\r\nでは、複雑さが見えないコードを実現するにはどうすればよいでしょうか？そこで登場するのが「deep module」という考え方です。「deep module」はスタンフォード大学のJohn Ousterhout教授が『A Philosophy of Software Design』という書籍で提唱しているモジュール設計の考え方です。\r\n本セッションでは「deep module」とは何か？deep moduleを実現するにはどうすればよいか？という疑問をPHPのコードを用いて可能限り具体的に解説したいと思います。「deep module」を理解すれば、きっと今よりも「良いコード」が書けます！" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "itosho" ,
+        "kana": "いとしょ" ,
+        "twitter": "itosho" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/461bd370-ea8c-4a89-be83-1f6ab7d4d8f0.jpg"
+      } ,
+      "created": "2019-12-01T17:47:41+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-09T16:55:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "c6a48360-6e14-4e93-901c-4b9829ed316f" ,
+      "title": "マスターデータの管理運用と実装について" ,
+      "abstract": "パフォーマンス・スケーラビリティ・開発・運用、\r\nこれら多角的な観点から「マスタデータ」を考えます。\r\n\r\n都道府県マスタ : 1:北海道／2:青森／3:岩手／4:宮城 …\r\n金融機関コード : 1:みずほ銀行／5:三菱UFJ銀行／9:三井住友銀行 …\r\nポケモン一覧 : 1:フシギダネ／2:フシギソウ／3:フシギバナ／4:ヒトカゲ …\r\nカテゴリ一覧 : general:一般／social:世の中／economics:政治と経済 …\r\n\r\n変わらないデータでしょうか？変わるデータでしょうか？変わるとしたらいつでしょうか？運用するの誰でしょうか？\r\n\r\nデータの特性を捉えた適切な実装により、開発と運用の双方を効率化できます。その方法をご紹介します。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "武田 憲太郎" ,
+        "kana": "タケダ ケンタロウ" ,
+        "twitter": "KentarouTakeda" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/76a2a0d5-a083-4493-9348-e5517c593360.jpeg"
+      } ,
+      "created": "2019-12-01T20:35:24+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T10:55:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "a0fad44e-fe5f-43a5-aef8-77cc6c0e6743" ,
+      "title": "PHPシステムをコンテナで動かすための取り組みのすべて" ,
+      "abstract": "PHPで稼働しているサービスをクラウド移行に向けてまずはコンテナ化し、現状のオンプレ上で動かそうとしています。\r\n実際にコンテナ化しようとすると、Dockerfileが長大になったりとか、デプロイの方法に悩むことが多いのではなかいと思います。\r\nそこで、このトークではPHPコンテナを動かす過程での私たちの\r\n・itamaeを利用したDocker Image作成\r\n・LVSを利用したBlue-Greenデプロイメントの方法\r\n・AWS Systems Manager RunCommand を利用したデプロイの方法\r\n・開発環境でのDocker Imagerの利用方法\r\nなどについて、実際の取り組みを生の声として話します。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "きくもと" ,
+        "kana": "キクモト" ,
+        "twitter": "takakiku" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/bf4811b2-f23a-4967-a11a-245fecbf2fa9.png"
+      } ,
+      "created": "2019-12-01T22:33:59+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-11T11:25:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "c8d6b9b1-29e4-48bd-b8bd-9f43f74d6265" ,
+      "title": "知らないWebアプリケーションの開発に途中からJOINしたとき、どこから切り込むか？" ,
+      "abstract": "エンジニアをしているとプロジェクトに途中からJOINすることはままあると思います。\r\n前提条件はいろいろあるとは思いますが、\r\n今回、新しいプロジェクトに途中からJOINしたので、\r\nそのとき私がどのように切り込んでいったのかを共有したいと思います。\r\n\r\n具体的には\r\n\r\n- サービス概要をスコープを絞って把握する\r\n- データベースの設計をスコープを絞って把握する\r\n- 開発環境を手に入れる\r\n- リポジトリの雰囲気を感じる\r\n- ソースコードを読み解く\r\n\r\nということについてお話したいと思います。\r\n\r\n本発表のゴールは、本発表をきっかけに「私ならこうする」「私はいつもこうしている」「私はいつもここに気をつけている」ということをみなさんが共有してくれることです。\r\n\r\n途中JOINのノウハウを共有していきましょう！" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "小山健一郎" ,
+        "kana": "おやまけんいちろう" ,
+        "twitter": "k1LoW" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/47824a05-26e3-4ec0-927b-f90d5236b585.png"
+      } ,
+      "created": "2019-12-02T11:31:21+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T16:15:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "8f41e23f-69ef-4f93-8625-db64be39248f" ,
+      "title": "静的解析の育て方" ,
+      "abstract": "静的解析はプログラマにフィードバックを最も早く返す仕組みの一つで、コード品質をチームで高める際にも非常に有用です。\r\nしかし、既存のプロダクトに対し静的解析をただ導入した場合、対応しきれないほどのエラーやワーニングが表示されるだけで、コード品質向上への効果が薄くなってしまいます。\r\n本トークでは既存プロダクトにPhanやPhpStormのInspectionといった静的解析ツールを導入し、その後コードの品質向上効果を高めるために、静的解析を育てていった一部始終をお話しします。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "杉山 祐一" ,
+        "kana": "スギヤマユウイチ" ,
+        "twitter": "oogFranz" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/b6df49c1-8c47-4611-bbfe-1220eb94a6cf.jpg"
+      } ,
+      "created": "2019-12-01T23:20:16+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-10T16:15:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "1b57439e-5284-443a-8d4f-bbe499b5b816" ,
+      "title": "「明日からフロントもよろしく！」 と言われたとき備える Atom Design でのフロントエンド設計" ,
+      "abstract": "UXや、UIの観点からSPAに代表されるリッチなフロントエンドが当たり前になり、\r\n「SPAにしたい」という要望はビジネス観点からして至極当たり前のことです。\r\n\r\nサーバサイドのPHPerでも、「明日からフロントもよろしく！」と言われる場面があるかもしれません。\r\n「フロントの設計わからん」、「コンポーネント設計ってどうやるの？」という疑問を\r\nAtom Design を通して解消し、来たるべき日に備える話しができればと思います。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "秋葉 誠一" ,
+        "kana": "アキバ セイイチ" ,
+        "twitter": "akki_megane" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/b5cf0d9f-491e-4132-8a06-e8329032d7b9.jpg"
+      } ,
+      "created": "2019-12-01T23:47:08+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T17:10:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "f9d27016-607a-4f9b-99bc-c2eebd354f9f" ,
+      "title": "カンファレンス初心者が全国行脚を始め、登壇するまで" ,
+      "abstract": "カンファレンス、楽しいですよね。\r\nしかし最初からそうでしたか？\r\n\r\n私の場合、カンファレンスに参加するにはいろいろなハードルがありました。\r\n\r\n・上級者しかいないんでしょう？\r\n・セッション聴いたけどなるほどわからん\r\n・参加費がお高い\r\n・遠征費がツライ\r\n・懇親会ぼっち・・・\r\n・マサカリが怖い\r\n\r\nこれらをどう超えたらいいでしょう。\r\n\r\n初めてカンファレンスに参加してから1年の間に全国の様々なカンファレンスに参加した経験から、同じハードルを抱える方や、これからカンファレンスをより楽しみたい人へ向けて、実りある時間を過ごすためのティップスを紹介します。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "くろ\/gattoman" ,
+        "kana": "クロ\/ガットマン" ,
+        "twitter": "gatto_man" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/9c8d1de8-8b36-483a-81b5-d147f276f81d.jpeg"
+      } ,
+      "created": "2019-12-02T01:54:36+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T17:00:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "e9e4a045-6fb7-417d-902a-27234505812f" ,
+      "title": "Webアクセシビリティを支えるための技術" ,
+      "abstract": "昨今では、アクセシビリティというキーワードを耳にすることが多くなってきました。\r\nWebアクセシビリティとは、Webコンテンツに誰もがいつでもどこでもどんな状況でもアクセスができるようにしていくことです。\r\n\r\nWebアクセシビリティは、デザイナーやフロントエンドエンジニアが取り組むものと思われがちですが、サーバーサイドエンジニアでもできることはあります。\r\n私たちサーバーサイドエンジニアは何ができるでしょうか？\r\n\r\nWebコンテンツをアクセシブルにするための指標に、Web Content Accessibility Guidelines (WCAG)というガイドラインがあります。\r\nWCAGには、コントラスト比や画像の代替テキストなどが挙げられていますが、そもそもWebコンテンツが表示できるかどうか、レスポンスが遅すぎないかどうかなどの必須条件に関しては言及されていません。\r\n\r\nこのトークでは、Webアクセシビリティを支えるためにサーバーサイドエンジニアができることにフォーカスを当てて話します。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "有木 詩織" ,
+        "kana": "アリキシオリ" ,
+        "twitter": "shiori_pk" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/d93e8984-8278-4e2e-bad2-d6c8e9644e92.jpg"
+      } ,
+      "created": "2019-12-02T04:23:24+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-11T14:30:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "5221a53b-137b-4498-a22e-d7cf537cd0e3" ,
+      "title": "PHPerがこれから「型」とお付き合いしていくために" ,
+      "abstract": "PHPでも「型」に関する議論が盛り上がっている今、一度「型」についておさらいしてみませんか？\r\n近年、主要なプログラミング言語の「型」を取り巻く環境が変化しています。もちろんPHPも例外ではなく、7.0以降「型」に関する機能を強化しています。\r\nPHPでは型ヒントの強化や、Javaではローカル型推論が導入されるなど、さまざまな言語で「型」に関する機能が拡張されています。\r\nこの拡張の傾向としては、動的型付け言語(PHP,Python)は漸進的型付けを導入する、静的型付け言語(Java,C#)は型推論を導入するというのがよくみられます。\r\nその結果、言語の型付けの方式に寄らず、必要な個所に型を記述するというスタイルに収束していきそうな気配すらあります。\r\nしかし、両者の間で「型」そのものの扱いには明確に差があります。その差とは何でしょうか？その差は何をもたらすのでしょうか？\r\nそして、PHP上で「型」と向き合う時が来たとき、どのように付き合っていくのがいいのでしょうか？\r\nこのセッションでは、両者の「型」の進化をおさらいしながら、PHPがこれから「型」と付き合っていく上で得られるものや課題、PHPerが「型」とうまく付き合っていくための基礎知識についておなしします。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "やなせ たかし" ,
+        "kana": "ヤナセ タカシ" ,
+        "twitter": "penguin_no_045" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/02b384bc-0278-4a0f-9128-3d072fde322d.jpeg"
+      } ,
+      "created": "2019-12-02T09:30:37+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T11:25:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "f4a44588-487c-412a-bcf4-a9d709bca67c" ,
+      "title": "GitHub Actionsで始めるPHPアプリケーションのCI実践入門" ,
+      "abstract": "2019年11月、GitHub Universe 2019で「GitHub Actions」がついに正式版になったことが発表されました。\r\nこれまではベータ版として公開されており、v1, v2と大きな仕様変更を経て正式版公開となったわけですが、興味はあるもののしっかりとキャッチアップできている人はまだまだ多くないのではないでしょうか？\r\n\r\n本トークではGithub Actionsを1から解説し、実際にこれまでCircleCIやTravisCIで行っていたPHPアプリケーションのCI\/CDを、Github Actionsを利用して実現できないかを検証します。\r\nDockerコンテナを活用しつつ、PHPUnitによるテストや、phpcs・phpstanといったQAツールを実行する具体例として参考となるものにできればと思います。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "高野福晃" ,
+        "kana": "タカノフクアキ" ,
+        "twitter": "fortkle" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/c3fefe68-c70b-413a-b532-5c6103995bdd.jpg"
+      } ,
+      "created": "2019-12-02T10:11:28+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T15:00:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "02b95bd6-4778-473c-802c-4a0938dde386" ,
+      "title": "Serverless Pattern" ,
+      "abstract": "Serverlessは一般化してきています。\r\n\r\nServerless においてある程度決まったPatternがあります。\r\n\r\nServerlessなArchitectureを組むことでそのシステムはどの様なメリットを享受出来るのでしょうか。\r\n\r\n今回はAWSを利用したServerless Patternを適用することで、\r\nそのシステムが享受出来るメリットと構築する上での注意点を解説します。\r\n\r\n・想定する聴講者\r\n　- Serverlessに興味のあるWEBエンジニア\r\n　- AWSを利用しているクラウド系エンジニア\r\n\r\n・お話する内容\r\n　- AWS Lambdaを中心としたServerless Pattern\r\n　- Serverless Patternを構築するうえで考えるべきAWSリソースの特徴\r\n　- Serverless Patternを構築することで得られるメリット\r\n　- Serverless Patternを利用するうえで注意すべき事項\r\n\r\n・お話しない内容\r\n　- GCP、Azureの話\r\n　- PHPを利用したServerless Pattern" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "清家史郎" ,
+        "kana": "セイケシロウ" ,
+        "twitter": "seike460" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/db5ae2fe-9252-45aa-8378-3e8c2a440545.png"
+      } ,
+      "created": "2019-11-21T20:09:39+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-11T15:00:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "58645104-35a5-4a87-b81c-16b2b9ad7147" ,
+      "title": "PHPのアノテーションの仕組みとメリット・デメリット" ,
+      "abstract": "PHPのフレームワーク（LaravelやSymfonyなど）やテストスイート（PHPUnitなど）で利用できるアノテーション。とても便利な書き方ですが、実際どのように処理され、動いているのかあらためてご紹介します。さらに使いどころ、メリット・デメリットについても触れていきます。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "山岡広幸" ,
+        "kana": "ヤマオカヒロユキ" ,
+        "twitter": "hiro_y" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/aac6281d-978a-4554-87a0-01e290bbc1b0.jpg"
+      } ,
+      "created": "2019-12-02T11:37:15+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-09T18:10:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "b8abdbb7-733e-47c3-b5b0-502278d3aa10" ,
+      "title": "E2Eテストに向き合う" ,
+      "abstract": "E2Eテストは\"遅い\"や\"不安定\"という理由で実施を諦めていませんか？\r\nまた、E2Eテストは大変すぎる、と思っていませんか？\r\nおおくの現場でE2Eテストの範囲や実施内容に対する理解は、単体テストや結合テストと比べて曖昧になっているような気がします。\r\nこのセッションでは、Testing Pyramidと、その中でもE2Eテストの範囲や実施内容に対する理解を深め、どのようなツールを使うと良いのか？\r\nといったプラクティスを解説していきます。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "岸田健一郎" ,
+        "kana": "キシダケンイチロウ" ,
+        "twitter": "sizuhiko" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/a811c8bf-c79e-4823-a13a-588f4c252fcf.png"
+      } ,
+      "created": "2019-12-02T11:46:54+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T10:40:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "ef0682ab-08b3-4129-ac1f-41b22c40021a" ,
+      "title": "CakePHPの進化から読み解く、PHPフレームワークの\"今\"っぽさ" ,
+      "abstract": "CakePHPは2.xから3.xで大規模な変更を実施すると共にポストPHP5.6時代に十分に適応したソフトウェアに進化しました。4.xでは、「PHP7.2を必須とする」という方針が採用されています。\r\nphp-figのメンバーでもあるCakePHPは、どのように「時代に合わせた進化」を遂げてきたでしょうか？\r\nこれまでの軌跡を辿り、リリースが近づいている4.0(※)の概要、その先にある4.1\/5.xへの言及にも触れながら、その思想の背景を読み解きます\r\n\r\n※2019年11月時点。カンファレンスまでにstableが出ていると思います" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "きんじょうひでき" ,
+        "kana": "キンジョウヒデキ" ,
+        "twitter": "o0h_" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/d03592cf-2f11-4cd0-9df6-30a367343147.jpg"
+      } ,
+      "created": "2019-11-01T17:15:21+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-10T10:40:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "4c6e9570-a479-4b0f-b422-fee21d76fcd7" ,
+      "title": "PHPとRustを組み合わせて音声ファイルをエンコードする話" ,
+      "abstract": "PHP 7.4ではFFI機能(https:\/\/php.net\/ffi)が実装されました。これにより共有ライブラリをPHP上で読み込むことが可能になりました。\r\n今回、Rustで音声ファイルのデコードとエンコード部分を実装して、共有ライブラリとしてPHPで呼び出す際のハマりどころや、PHPとRustの親和性についてお話します。\r\n普段PHPを触っているがRustにも興味がある方、音声ファイルのエンコードに興味のある方、FFIに興味のある方はオススメです！" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "meteor" ,
+        "kana": "メテオ" ,
+        "twitter": "yaminoma_tw" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/4e6c1591-3d81-42ee-beb8-944ddb97856f.jpg"
+      } ,
+      "created": "2019-12-02T13:30:53+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T15:55:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "634d0629-af71-46fa-83a2-e153b950f71a" ,
+      "title": "forteeに脆弱性診断をかけてみた" ,
+      "abstract": "phperkaigiを支えているイベント管理システムfortee。\r\n我々はforteeのソースコードを入手することに成功。そこでforteeに対して脆弱性診断を実施、その結果とは・・・\r\n\r\nforteeの開発者 @tomzoh にVAddyによる脆弱性検査の実施を依頼されたため、ローカル環境にforteeを立てて検査してみました。\r\n本発表では、脆弱性検査の種類、検査内容、実際の検査のデモ、検査しやすい箇所としにくい箇所の紹介、\r\nフレームワークを使っていても脆弱性を生みやすい箇所の紹介を行います。\r\nあまり馴染みがない脆弱性検査を少しでも体験して、セキュリティテストは一般的なテストと同じように重要であると理解してもらうのがゴールです。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "cakephper" ,
+        "kana": "ケイクペチパー" ,
+        "twitter": "cakephper" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/9777aafe-405c-4cd6-9bdc-1e92c105918d.jpg"
+      } ,
+      "created": "2019-12-03T15:35:23+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T14:45:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "08cce12d-bccc-4d16-900e-274df083322c" ,
+      "title": "もっと気軽にOSSにPRを出そう！" ,
+      "abstract": "OSSにPRを出すのは、すごいエンジニアや上級者がやることだと思っていませんか？\r\nそんなことは全くありません。\r\nたとえあなたがエンジニアになりたてだったとしても、そのOSSを使ったことがなくても、PRを出すチャンスはあります。\r\n\r\n本トークでは、私が過去に数々のPHPライブラリに対して送ってきたPRを紹介しながら、PRを送りつけるときの心構えやチャンスの探し方を紹介したいと思います。\r\n\r\nOSSの例:\r\n\r\n* Symfony\r\n* Guzzle\r\n* AWS-SDK-for-PHP\r\n* Monolog\r\n* Ethna\r\n* DietCake\r\n\r\n本トークを聞けば、\r\n「あ、こういうところにチャンスがあるのか」\r\n「自分もやってみよう」\r\nという気持ちになれるかもしれません。\r\n\r\nその結果、PHPのエコシステムがどんどん良くなるといいなと思っています。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "DQNEO(ドキュネオ)" ,
+        "kana": "ドキュネオ" ,
+        "twitter": "DQNEO" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/4b8382ef-eb4f-4b49-8a0b-750ad3481419.jpg"
+      } ,
+      "created": "2019-11-01T19:22:13+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-10T14:45:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "7daaf697-7a08-4ab6-9945-ac48a021709c" ,
+      "title": "実例から学ぶ、最後まで諦めない決済システム移行方法" ,
+      "abstract": "Web業界に転職して約3年が経ち、任されたのは社内4サービス(そのうちの1つは某ハンドメイドサービス)で利用されるクレカ決済システムの移行プロジェクト。\r\n\r\nそれは2019年4月末頃に移行本番当日を迎えた、約4ヶ月間にも及ぶ決済システム移行プロジェクトのお話。\r\n\r\n発表者は前職で火力発電所の監視システム開発を5年半担当し、そこでは何度も失敗できない現場での業務を経験してきました。\r\nそうした経験を持つ自身が今回の移行成功率を高めるために心がけていたことや実際に実施したこと、またそれでも失敗してしまったことなど、そこで得られた知見を全て皆さんにお話ししたいと思っています。\r\n\r\n- 始まりは現行決済サービスの突如終了のアナウンス\r\n- いざ計画した決済システム移行方法はまさかの打ち合わせ数日後に却下\r\n- そして決断されるビッグバンメンテによる4サービス一発切り替えという禁断の計画\r\n- 本番2日前に発覚した重大な設定ミス\r\n\r\n移行本番の日、果たしてシステム移行は成功したのか・・・？\r\n乞うご期待ください！" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "中村光佑" ,
+        "kana": "ナカムラコウスケ" ,
+        "twitter": "litencatt" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/9f78c1ef-aba8-4b27-b1ea-338a89c50c07.jpg"
+      } ,
+      "created": "2019-12-06T23:12:08+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-11T10:55:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "cf68c650-c21f-4d84-a78f-14fab27fd29f" ,
+      "title": "Laravelで家電を操作してみよう" ,
+      "abstract": "「エアコン消し忘れた……」\r\n「エアコンをつけたいけどお布団から出たくない……」\r\n「テレビの電源ついてないと録画できないのにうっかり消してきちゃった……」\r\n\r\nそのような経験をした方は多いのではないでしょうか？\r\n\r\nそんな悩みを解決するために、PHP Webフレームワーク「Laravel」と無線対応のIoT開発ボード「Obniz」を使用した学習型赤外線リモコンを製作して、ブラウザから家電を操作するお話です。\r\n\r\n■内容\r\n - Obnizとは？\r\n - 赤外線リモコンの仕組み\r\n - LaravelとObniz間の通信方法\r\n - 時刻起動で自動操作してみる" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "なずな" ,
+        "kana": "ナズナ" ,
+        "twitter": "akaa07_pg" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/4942fe2b-cceb-41d8-bbc3-e9c93a2c8c63.jpg"
+      } ,
+      "created": "2019-12-08T16:10:45+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T17:15:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "0f7ef74b-17ba-41b6-9ca6-abff2d30f9a7" ,
+      "title": "PHPでつくるインタプリタ入門" ,
+      "abstract": "パーサーやインタプリタを作ってみたいと思ったことはありますか？私はあります。\r\nパーサーを作りコードをパースする一連の流れを実装することで、\r\nコンパイラやインタプリタの気持ちを理解できるようになれば、プログラミング言語に対する距離をより縮められると思っています。\r\n「PHPで何を作ろう？」と思ったPHP初心者の私は、この機会にGo言語のインタプリタをPHPで実装することにしました。\r\n\r\n本発表では、PHPでGo言語のインタプリタを作成した話をします。\r\nこの発表を通して、以下のことを伝えたいと思います。\r\n\r\n- インタプリタを作ると何が得られるのか？\r\n- 字句解析、構文解析、評価器とはなにか。それぞれの役割\r\n- 抽象構文木とPHPでの実装方法\r\n- デモ\r\n- 今までGoを書いていたPHP初心者がPHPでインタプリタを書いてみて\r\n\r\n対象の言語仕様によってパース処理は異なりますが、インタプリタを実現するまでのステップや流れは同じになるはずです。\r\nこの発表を通して聴衆のみなさんが自分の興味がある言語のインタプリタを作り始められるようになるのが、本発表のゴールです。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "清水 陽一郎" ,
+        "kana": "シミズ ヨウイチロウ" ,
+        "twitter": "budougumi0617" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/8bb287b0-81f5-4cd3-867e-cbde1ec9fb88.png"
+      } ,
+      "created": "2019-12-08T18:55:40+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T11:25:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "781e14e9-46f9-4077-a211-dbb78db67bcf" ,
+      "title": "PHPとEventSauceで始めるイベントソーシングアプリケーション" ,
+      "abstract": "我々が普段慣れ親しんでいるアプリケーションの最新の状態をデータストアに記録するという考え方をステートソーシングと呼びます。\r\n対してイベントソーシングは、操作による状態の変更差分をイベントとして記録し、最新の状態を過去のイベントによる変更を積み重ねた結果として捉える考え方です。\r\n\r\nPHPにも、Prooph、Broadway、EventSauceなどイベントソーシングに基づくアプリケーション作成を支援するライブラリが存在します。\r\n本セッションではイベントソーシングの考え方を解説した上で、EventSauce (https:\/\/eventsauce.io\/) を利用した実装についてご紹介します。\r\n\r\n\r\nお話ししたいこと\r\n- イベントソーシングの考え方\r\n- CQRSとの関係性\r\n- イベントソーシング用ライブラリと単なるイベントディスパッチャライブラリとの違い\r\n- PHPとEventSauceを利用したWebアプリケーションの実装方法\r\n\r\n話さないこと\r\n- データストア、メッセージキューなどミドルウェア周りの詳細\r\n- ドメイン駆動設計\r\n- マイクロサービスアーキテクチャ\r\n- 本番運用の事例" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "中榮健二" ,
+        "kana": "ナカエケンジ" ,
+        "twitter": "n_1215" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/3e69bb02-516f-4e42-b91f-463f38598b35.png"
+      } ,
+      "created": "2019-11-28T13:45:38+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-10T11:25:00+09:00" ,
+        "length_min": 30
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "76d866b8-7421-4644-aa18-8553d1b27553" ,
+      "title": "自分の名前を\"ちゃんと\"入力したい人生だった" ,
+      "abstract": "私の苗字は「濱󠄂中」なのですが、実は普通に「はまなか」を変換してでてくる「濱」の字とは違う字体が使われています。\r\nこれは異体字と呼ばれるもので、「はしご高（髙）」や「立つ崎（﨑）」の仲間なんですが、この辺のメジャーな文字と違って変換も表示もできなくて辛い思いをしてきました。\r\n\r\nけれど、最近のOSでは普通に異体字を扱えるようになり、（頑張れば）私の「濱󠄂」の字が読み書きできる時代が来ています。\r\nここでは、異体字がどういうものなのか、自分の名前を読み書きするためにどうしたのか、結果どうなったのかそういったことを話せればと思います。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "hamaco" ,
+        "kana": "ハマコ" ,
+        "twitter": "hamaco" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/6b284b45-1e69-4049-8b93-0db7c8ca802b.jpg"
+      } ,
+      "created": "2019-12-08T20:05:53+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T16:00:00+09:00" ,
+        "length_min": 5
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "5b1651a5-0a01-4b49-b338-e332f981bf5d" ,
+      "title": "ジェネレータで無限を手玉に取る術" ,
+      "abstract": "「PHPでforeachで反復できるものは何でしょう？」配列、オブジェクト、Iterator、そして“ジェネレータ”です。\r\n\r\nジェネレータは言語によってコルーチン、semicoroutineやFiberとも呼ばれるものと同等の言語機能であり、SICPのような計算機科学の教科書で説明されるストリーム・無限リストを簡潔に実現できます。\r\nforeachループで配列を反復するのは既に作成済みのデータを頭から辿っていくだけのものであるのに対して、ジェネレータは配列のキーや要素に相当するものを計算によって生み出すことができるため、省メモリで効率のよい計算が可能です。\r\n\r\nこのトークではジェネレータの基礎概念と、実際に応用できるパターンについて紹介していきます。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "うさみけんた" ,
+        "kana": "ウサミケンタ" ,
+        "twitter": "tadsan" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/a0c1912a-8d40-4306-86d6-5d4539521f84.jpg"
+      } ,
+      "created": "2019-12-09T03:21:39+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-11T10:25:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "a1167460-6c34-4386-8c74-c10b9dff71ad" ,
+      "title": "ぼっちからはじめるレガシーカルチャー改善ガイド 〜はじめの一歩編〜" ,
+      "abstract": "勉強会やカンファレンスに参加するとムクムクと湧いてくるカイゼン意欲。\r\n「よっしゃ明日からやってやるぞー！！」と思って気持ちよく寝ても、\r\nいざ翌日出社すると「あれ・・・どこから手をつけたらいいか分からない・・・」となったりしていませんか？\r\nわたしはそうでした。（いまでもそんな時はあります）\r\n\r\n会社の制度やチームの文化を変えるための「銀の弾丸」はないと思っています。\r\n\r\nわたしの会社やチームもまだまだカイゼンの余地がありますが、\r\n様々なアプローチを試行錯誤し、少しずつ少しずつカイゼンが進んでいっているなという実感を持っています。\r\n\r\n今回のセッションでは特に「カイゼンをまず1人ではじめよう！」と思った時に、わたしが実際に行なったアプローチを時間の許す限り紹介したいと思います。\r\n聞いてくださったみなさんが、明日(明後日？)に出社して、もっと気軽にカイゼンをはじめるためのヒントとなれば幸いです。" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "大橋 佑太" ,
+        "kana": "オオハシユウタ" ,
+        "twitter": "blue_goheimochi" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/10910ec2-b695-4fac-bc11-11aed0a7736f.jpg"
+      } ,
+      "created": "2019-12-09T12:31:28+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-11T14:00:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "86f9589c-cc93-4f03-8858-e2e1b4fc0a82" ,
+      "title": "磯野ー、MySQLのロック競合を表示しようぜー" ,
+      "abstract": "MySQLのロックはお好きですか？\r\n行ロックギャップロックにテーブルロック、メタデータロックauto_incrementロックetcetcetc..\r\n目XPLAINで戦うには多彩すぎる種類のロックがあります。\r\n\r\nこれを可視化できる performance_schema.data_locks (MySQL 8.0で導入された) のすばらしさ、5.7とそれ以前との違いを説明します。\r\n\r\nhttps:\/\/dev.mysql.com\/doc\/mysql-perfschema-excerpt\/8.0\/en\/data-locks-table.html" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "yoku0825" ,
+        "kana": "ヨクゼロハチニーゴー" ,
+        "twitter": "yoku0825" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/ef42b472-a3c8-49b6-9c11-8185f0dad65a.jpg"
+      } ,
+      "created": "2019-12-09T13:20:12+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-10T14:15:00+09:00" ,
+        "length_min": 15
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+
+
+    {
+      "uuid": "event-001" ,
+      "title": "PHPの現場 公開収録" ,
+      "abstract": "" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "新原 雅司" ,
+        "kana": "シンバラマサシ" ,
+        "twitter": "shin1x1" ,
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/shin1x1.png"
+      } ,
+      "created": "2019-11-01T17:04:01+09:00" ,
+      "timetable": {
+        "track": "Track B" ,
+        "starts_at": "2020-02-10T13:30:00+09:00" ,
+        "length_min": 65
+      } ,
+      "feedback": {
+        "open": false
+      }
+    } ,
+    {
+      "uuid": "2a1528b0-8c60-4da3-81bf-88054c7a5006" ,
+      "title": "[ランチセッション]クリーンな実装を目指して" ,
+      "abstract": "・なんでそのクラスにそのメソッドをもたせたの？\r\n・そもそもどうしてそのクラスを作ったの？\r\n・どうしてインターフェースを作るの？\r\n\r\n実装していてこんな質問を受けた時\r\n体系的にわかりやすく答えることって難しいですよね\r\n\r\n「この場合〇〇になってしまうから」とか「こうやって実装したときに後々いいから」といった具体例を挙げた回答だけではなく、設計の観点からお話します。\r\n\r\nこのセッションでは、レガシーコードに新機能を追加するにあたってどうすれば変更に強く、理解しやすい実装ができるのか。弊社サービスのある機能開発を通して学んだことを実例を交えて紹介します。主にドメイン駆動設計の視点から設計やリファクタリングについて「やってよかったこと」「こうするともっとよかった」という話をします" ,
+      "accepted": true ,
+      "speaker": {
+        "name": "Hamee株式会社" ,
+        "kana": "ハミイカブシキガイシャ",
+        "twitter" : "hamee_creator",
+        "avatar_url": "https:\/\/fortee.jp\/files\/phperkaigi-2020\/speaker\/d6698d62-fe67-40c5-9dae-e0cd7a6ab6fd.png"
+      } ,
+      "created": "2020-01-16T11:10:00+09:00" ,
+      "timetable": {
+        "track": "Track A" ,
+        "starts_at": "2020-02-11T12:20:00+09:00" ,
+        "length_min": 20
+      } ,
+      "feedback": {
+        "open": false
+      }
+    }
+  ]
+}
